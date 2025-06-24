@@ -5,6 +5,6 @@ export default class MusicAlbum implements Buyable {
         readonly id: number,
         readonly name: string,
         readonly author: string,
-        readonly price: number,
+        readonly price: number
     ) { }
 }
